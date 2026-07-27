@@ -1,7 +1,22 @@
 aid: good-and-co
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-and-co.png
 name: Good & Co.
-description: Good & Co. is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Good & Co. (Good&Co Labs, Inc.) was a Techstars-backed startup that built a research-driven
+  psychometric and culture-fit platform for hiring and employee engagement, using Big Five-based
+  personality assessments to match candidates, teammates, and workplaces via a proprietary FitScore.
+  As of this enrichment pass the original company appears defunct with no live developer or API surface,
+  and the good.co domain now resolves to an unrelated third-party logistics (3PL) fulfillment business.
 url: https://raw.githubusercontent.com/api-evangelist/good-and-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +24,22 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-status: no-api-surface
+x-enrichment-note: Original Techstars Good&Co (psychometric hiring platform) appears defunct; good.co
+  now hosts an unrelated 3PL logistics company. No OpenAPI, developer portal, packages, well-known
+  discovery docs, security.txt, or VDP/trust-center found. Only a factual domain-security host probe
+  was produced. Verified 2026-07-19.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Personality Assessment
+- Psychometrics
+- Hiring
+- Human Resources
+- Culture Fit
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/good-and-co-domain-security.yml
 - type: Website
   url: https://good.co/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
