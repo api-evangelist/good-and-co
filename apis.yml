@@ -29,7 +29,7 @@ x-enrichment-note: Original Techstars Good&Co (psychometric hiring platform) app
   now hosts an unrelated 3PL logistics company. No OpenAPI, developer portal, packages, well-known
   discovery docs, security.txt, or VDP/trust-center found. Only a factual domain-security host probe
   was produced. Verified 2026-07-19.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
