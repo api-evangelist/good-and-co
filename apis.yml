@@ -24,10 +24,10 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-and-co.png
 name: Good & Co.
 description: Good & Co. (Good&Co Labs, Inc.) was a Techstars-backed startup that built a research-driven
-  psychometric and culture-fit platform for hiring and employee engagement, using Big Five-based
-  personality assessments to match candidates, teammates, and workplaces via a proprietary FitScore.
-  As of this enrichment pass the original company appears defunct with no live developer or API surface,
-  and the good.co domain now resolves to an unrelated third-party logistics (3PL) fulfillment business.
+  psychometric and culture-fit platform for hiring and employee engagement, using Big Five-based personality
+  assessments to match candidates, teammates, and workplaces via a proprietary FitScore. As of this enrichment
+  pass the original company appears defunct with no live developer or API surface, and the good.co domain
+  now resolves to an unrelated third-party logistics (3PL) fulfillment business.
 url: https://raw.githubusercontent.com/api-evangelist/good-and-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,12 +37,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-enrichment-status: no-api-surface
 x-enrichment-note: Original Techstars Good&Co (psychometric hiring platform) appears defunct; good.co
-  now hosts an unrelated 3PL logistics company. No OpenAPI, developer portal, packages, well-known
-  discovery docs, security.txt, or VDP/trust-center found. Only a factual domain-security host probe
-  was produced. Verified 2026-07-19.
+  now hosts an unrelated 3PL logistics company. No OpenAPI, developer portal, packages, well-known discovery
+  docs, security.txt, or VDP/trust-center found. Only a factual domain-security host probe was produced.
+  Verified 2026-07-19.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Personality Assessment
@@ -67,3 +67,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: defunct
